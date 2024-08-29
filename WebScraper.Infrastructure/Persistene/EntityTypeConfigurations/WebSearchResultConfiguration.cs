@@ -70,7 +70,7 @@ namespace WebScraper.Infrastructure.Persistene.EntityTypeConfigurations
                     WebSearchId = new Guid("00000000-0000-0000-0000-000000000002"),
                     CreatedAt = DateTime.Now,
                     Rankings = "20, 24, 42, 80, 87, 99",
-                    Url = "https://www.google.co.uk/search?num=100&q=land+registry+search"
+                    Url = "https://www.google.co.uk/search?num=100&q=infotrack"
                 },
                 new WebSearchResult
                 {
@@ -78,7 +78,7 @@ namespace WebScraper.Infrastructure.Persistene.EntityTypeConfigurations
                     WebSearchId = new Guid("00000000-0000-0000-0000-000000000002"),
                     CreatedAt = DateTime.Now.Subtract(new TimeSpan(1, 0, 0, 0)),
                     Rankings = "23, 34, 67",
-                    Url = "https://www.google.co.uk/search?num=100&q=land+registry+search"
+                    Url = "https://www.google.co.uk/search?num=100&q=infotrack"
                 },
                 new WebSearchResult
                 {
@@ -86,7 +86,7 @@ namespace WebScraper.Infrastructure.Persistene.EntityTypeConfigurations
                     WebSearchId = new Guid("00000000-0000-0000-0000-000000000002"),
                     CreatedAt = DateTime.Now.Subtract(new TimeSpan(2, 0, 0, 0)),
                     Rankings = "16, 26, 42, 60",
-                    Url = "https://www.google.co.uk/search?num=100&q=land+registry+search"
+                    Url = "https://www.google.co.uk/search?num=100&q=infotrack"
                 },
                 new WebSearchResult
                 {
@@ -94,7 +94,7 @@ namespace WebScraper.Infrastructure.Persistene.EntityTypeConfigurations
                     WebSearchId = new Guid("00000000-0000-0000-0000-000000000002"),
                     CreatedAt = DateTime.Now.Subtract(new TimeSpan(3, 0, 0, 0)),
                     Rankings = "10, 18, 37, 67, 90, 98",
-                    Url = "https://www.google.co.uk/search?num=100&q=land+registry+search"
+                    Url = "https://www.google.co.uk/search?num=100&q=infotrack"
                 },
                 new WebSearchResult
                 {
@@ -102,7 +102,7 @@ namespace WebScraper.Infrastructure.Persistene.EntityTypeConfigurations
                     WebSearchId = new Guid("00000000-0000-0000-0000-000000000002"),
                     CreatedAt = DateTime.Now.Subtract(new TimeSpan(4, 0, 0, 0)),
                     Rankings = "12, 30, 40, 48, 52, 66, 80",
-                    Url = "https://www.google.co.uk/search?num=100&q=land+registry+search"
+                    Url = "https://www.google.co.uk/search?num=100&q=infotrack"
                 },
                 new WebSearchResult
                 {
@@ -110,7 +110,7 @@ namespace WebScraper.Infrastructure.Persistene.EntityTypeConfigurations
                     WebSearchId = new Guid("00000000-0000-0000-0000-000000000002"),
                     CreatedAt = DateTime.Now.Subtract(new TimeSpan(5, 0, 0, 0)),
                     Rankings = "1, 8, 18, 20, 40, 60, 82",
-                    Url = "https://www.google.co.uk/search?num=100&q=land+registry+search"
+                    Url = "https://www.google.co.uk/search?num=100&q=infotrack"
                 }
             });
         }

@@ -42,14 +42,14 @@ namespace WebScraper.Infrastructure.Migrations
                         new
                         {
                             Id = new Guid("00000000-0000-0000-0000-000000000001"),
-                            CreatedAt = new DateTime(2024, 8, 20, 23, 43, 9, 797, DateTimeKind.Local).AddTicks(5874),
+                            CreatedAt = new DateTime(2024, 8, 21, 13, 19, 14, 301, DateTimeKind.Local).AddTicks(2860),
                             SearchExpression = "land registry search",
                             SearchProvider = "Google"
                         },
                         new
                         {
                             Id = new Guid("00000000-0000-0000-0000-000000000002"),
-                            CreatedAt = new DateTime(2024, 8, 20, 23, 43, 9, 797, DateTimeKind.Local).AddTicks(5929),
+                            CreatedAt = new DateTime(2024, 8, 21, 13, 19, 14, 301, DateTimeKind.Local).AddTicks(2903),
                             SearchExpression = "InfoTrack",
                             SearchProvider = "Google"
                         });
@@ -84,98 +84,98 @@ namespace WebScraper.Infrastructure.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("60fb4158-6289-4759-b6b3-a455eb8974fd"),
-                            CreatedAt = new DateTime(2024, 8, 28, 23, 43, 9, 797, DateTimeKind.Local).AddTicks(6081),
+                            Id = new Guid("c30e6ae6-327c-4d62-8d24-ffd431eaf32f"),
+                            CreatedAt = new DateTime(2024, 8, 29, 13, 19, 14, 301, DateTimeKind.Local).AddTicks(3033),
                             Rankings = "1, 8, 16, 32",
                             Url = "https://www.google.co.uk/search?num=100&q=land+registry+search",
                             WebSearchId = new Guid("00000000-0000-0000-0000-000000000001")
                         },
                         new
                         {
-                            Id = new Guid("9b6ea5b4-dae4-46e7-bdaf-a55573740ab4"),
-                            CreatedAt = new DateTime(2024, 8, 27, 23, 43, 9, 797, DateTimeKind.Local).AddTicks(6085),
+                            Id = new Guid("959d698f-6b88-458e-a0ae-525d44d3c9d2"),
+                            CreatedAt = new DateTime(2024, 8, 28, 13, 19, 14, 301, DateTimeKind.Local).AddTicks(3037),
                             Rankings = "1, 4, 16, 47, 68",
                             Url = "https://www.google.co.uk/search?num=100&q=land+registry+search",
                             WebSearchId = new Guid("00000000-0000-0000-0000-000000000001")
                         },
                         new
                         {
-                            Id = new Guid("155727c9-4c45-403a-bbcd-aefff7ad7322"),
-                            CreatedAt = new DateTime(2024, 8, 26, 23, 43, 9, 797, DateTimeKind.Local).AddTicks(6088),
+                            Id = new Guid("1b714f56-5f51-4e26-a31e-50d455c5d189"),
+                            CreatedAt = new DateTime(2024, 8, 27, 13, 19, 14, 301, DateTimeKind.Local).AddTicks(3040),
                             Rankings = "3, 10, 16, 47",
                             Url = "https://www.google.co.uk/search?num=100&q=land+registry+search",
                             WebSearchId = new Guid("00000000-0000-0000-0000-000000000001")
                         },
                         new
                         {
-                            Id = new Guid("e85ed73a-a272-404e-b52f-3a8d0b5518cd"),
-                            CreatedAt = new DateTime(2024, 8, 25, 23, 43, 9, 797, DateTimeKind.Local).AddTicks(6102),
+                            Id = new Guid("8f9b4f4c-dd32-4fb2-9ea1-6e67aeb195c8"),
+                            CreatedAt = new DateTime(2024, 8, 26, 13, 19, 14, 301, DateTimeKind.Local).AddTicks(3052),
                             Rankings = "2, 7, 20, 60, 89",
                             Url = "https://www.google.co.uk/search?num=100&q=land+registry+search",
                             WebSearchId = new Guid("00000000-0000-0000-0000-000000000001")
                         },
                         new
                         {
-                            Id = new Guid("40e3845f-a97a-4690-859e-73690ba1eccd"),
-                            CreatedAt = new DateTime(2024, 8, 24, 23, 43, 9, 797, DateTimeKind.Local).AddTicks(6105),
+                            Id = new Guid("3b3949a9-1614-48fb-a609-905e618d84aa"),
+                            CreatedAt = new DateTime(2024, 8, 25, 13, 19, 14, 301, DateTimeKind.Local).AddTicks(3055),
                             Rankings = "4, 8, 16, 32",
                             Url = "https://www.google.co.uk/search?num=100&q=land+registry+search",
                             WebSearchId = new Guid("00000000-0000-0000-0000-000000000001")
                         },
                         new
                         {
-                            Id = new Guid("76c47b4d-f878-4800-a17d-099cc3ba01a0"),
-                            CreatedAt = new DateTime(2024, 8, 23, 23, 43, 9, 797, DateTimeKind.Local).AddTicks(6108),
+                            Id = new Guid("fb6b78d0-1394-40a8-b6fe-309729034dfe"),
+                            CreatedAt = new DateTime(2024, 8, 24, 13, 19, 14, 301, DateTimeKind.Local).AddTicks(3058),
                             Rankings = "1, 8, 20, 32",
                             Url = "https://www.google.co.uk/search?num=100&q=land+registry+search",
                             WebSearchId = new Guid("00000000-0000-0000-0000-000000000001")
                         },
                         new
                         {
-                            Id = new Guid("5b55026f-eaf1-46a9-9408-25a21b7eafad"),
-                            CreatedAt = new DateTime(2024, 8, 28, 23, 43, 9, 797, DateTimeKind.Local).AddTicks(6111),
+                            Id = new Guid("01de3384-e11a-4975-94cc-f1a9b6f52488"),
+                            CreatedAt = new DateTime(2024, 8, 29, 13, 19, 14, 301, DateTimeKind.Local).AddTicks(3061),
                             Rankings = "20, 24, 42, 80, 87, 99",
-                            Url = "https://www.google.co.uk/search?num=100&q=land+registry+search",
+                            Url = "https://www.google.co.uk/search?num=100&q=infotrack",
                             WebSearchId = new Guid("00000000-0000-0000-0000-000000000002")
                         },
                         new
                         {
-                            Id = new Guid("84ebfc91-14dd-457b-aee4-fbacfbeca274"),
-                            CreatedAt = new DateTime(2024, 8, 27, 23, 43, 9, 797, DateTimeKind.Local).AddTicks(6113),
+                            Id = new Guid("81298a31-b95c-4a25-9ba6-ce43f417a542"),
+                            CreatedAt = new DateTime(2024, 8, 28, 13, 19, 14, 301, DateTimeKind.Local).AddTicks(3063),
                             Rankings = "23, 34, 67",
-                            Url = "https://www.google.co.uk/search?num=100&q=land+registry+search",
+                            Url = "https://www.google.co.uk/search?num=100&q=infotrack",
                             WebSearchId = new Guid("00000000-0000-0000-0000-000000000002")
                         },
                         new
                         {
-                            Id = new Guid("564f0747-02e9-462e-8eb7-cdef43cb9128"),
-                            CreatedAt = new DateTime(2024, 8, 26, 23, 43, 9, 797, DateTimeKind.Local).AddTicks(6116),
+                            Id = new Guid("1dbca726-b004-4a6d-b91b-7ab37fadd560"),
+                            CreatedAt = new DateTime(2024, 8, 27, 13, 19, 14, 301, DateTimeKind.Local).AddTicks(3066),
                             Rankings = "16, 26, 42, 60",
-                            Url = "https://www.google.co.uk/search?num=100&q=land+registry+search",
+                            Url = "https://www.google.co.uk/search?num=100&q=infotrack",
                             WebSearchId = new Guid("00000000-0000-0000-0000-000000000002")
                         },
                         new
                         {
-                            Id = new Guid("c001922e-9ea1-4d78-8433-f7ac5ded15fb"),
-                            CreatedAt = new DateTime(2024, 8, 25, 23, 43, 9, 797, DateTimeKind.Local).AddTicks(6119),
+                            Id = new Guid("fb29a0cf-759a-44b5-bb85-d8b87f8bc776"),
+                            CreatedAt = new DateTime(2024, 8, 26, 13, 19, 14, 301, DateTimeKind.Local).AddTicks(3069),
                             Rankings = "10, 18, 37, 67, 90, 98",
-                            Url = "https://www.google.co.uk/search?num=100&q=land+registry+search",
+                            Url = "https://www.google.co.uk/search?num=100&q=infotrack",
                             WebSearchId = new Guid("00000000-0000-0000-0000-000000000002")
                         },
                         new
                         {
-                            Id = new Guid("10033b28-2d49-4fa7-9c9d-a9e6b1928606"),
-                            CreatedAt = new DateTime(2024, 8, 24, 23, 43, 9, 797, DateTimeKind.Local).AddTicks(6121),
+                            Id = new Guid("2235ea13-bc83-44ea-9424-2ffa878a263e"),
+                            CreatedAt = new DateTime(2024, 8, 25, 13, 19, 14, 301, DateTimeKind.Local).AddTicks(3071),
                             Rankings = "12, 30, 40, 48, 52, 66, 80",
-                            Url = "https://www.google.co.uk/search?num=100&q=land+registry+search",
+                            Url = "https://www.google.co.uk/search?num=100&q=infotrack",
                             WebSearchId = new Guid("00000000-0000-0000-0000-000000000002")
                         },
                         new
                         {
-                            Id = new Guid("bdf46453-279c-4fb4-80b1-ba50a00502db"),
-                            CreatedAt = new DateTime(2024, 8, 23, 23, 43, 9, 797, DateTimeKind.Local).AddTicks(6125),
+                            Id = new Guid("29eedcd4-033e-476f-ade5-8665fb228ce6"),
+                            CreatedAt = new DateTime(2024, 8, 24, 13, 19, 14, 301, DateTimeKind.Local).AddTicks(3075),
                             Rankings = "1, 8, 18, 20, 40, 60, 82",
-                            Url = "https://www.google.co.uk/search?num=100&q=land+registry+search",
+                            Url = "https://www.google.co.uk/search?num=100&q=infotrack",
                             WebSearchId = new Guid("00000000-0000-0000-0000-000000000002")
                         });
                 });
