@@ -1,8 +1,6 @@
 # info-track-web-scraper
 Solution for the web scraper take home exercise using .Net, Angular and SQLLite.
 
-[TOC]
-
 # Requirements
 This application requires the following to be able to run:
 - .Net 8
@@ -11,7 +9,7 @@ This application requires the following to be able to run:
 
 # Setup
 1. Clone this repository:
-`https://github.com/adamhvt/info-track-web-scraper.git`
+`git clone https://github.com/adamhvt/info-track-web-scraper.git`
 
 2. Update database by running the following command from within the solution's root folder:
 
@@ -30,7 +28,7 @@ There are two main domain entities within the application:
 Represents a search that can be repeated multiple times. A Web Search contains the search term and the search engine used.
 
 ### Web Search Result
-Represents the result of a processed search request. It references the Web Search, allowing for trend analysis for a search expression.
+Represents the result of a processed search request, including the ranking score of the searched term. It references the Web Search, therefore one web search can have multiple results over time, allowing for trend analysis of individual search expressions.
 
 # Design Decisions
 ### Clean Architecture
@@ -66,7 +64,7 @@ As cookie consent banners often defer loading the search results, scraping resul
 
 The components and logic for sending a real request to the search providers are still in place for demonstration purposes.
 
-# Improvements
+# Potential Improvements
 - Use FulentValidation for validation requests
 - Add global error handling
 - Add more tests
