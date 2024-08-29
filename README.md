@@ -1,8 +1,6 @@
 # info-track-web-scraper
 Solution for the web scraper take home exercise using .Net, Angular and SQLLite.
 
-[TOC]
-
 # Requirements
 This application requires the following to be able to run:
 - .Net 8
