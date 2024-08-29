@@ -1,0 +1,43 @@
+<div class="top-section">
+  <div class="details-container">
+    <h2>Search Details</h2>
+    <ng-container *ngIf="search">
+        <div>
+            <label for="searchExpression"><strong>Search expression: </strong></label>
+            <span id="searchExpression">{{search.searchExpression}}</span>
+        </div>
+
+        <div>
+            <label for="searchProvider"><strong>Search provider: </strong></label>
+            <span id="searchProvider">{{search.searchProvider}}</span>
+        </div>
+
+        <div>
+            <label for="createdAt"><strong>Created at: </strong></label>
+            <span id="createdAt">{{search.createdAt | date : "dd-MM-YYYY hh:mm"}}</span>
+        </div>
+
+        <button style="margin-top: 1rem;" mat-stroked-button [disabled]="loading" (click)="rerun(search.id)">Rerun search</button>
+    </ng-container>
+  </div>
+
+  <button mat-flat-button [routerLink]="['..']">Back to searches</button>
+</div>
+
+<table mat-table [dataSource]="results" class="mat-elevation-z8">
+  
+    <!-- Rankings -->
+    <ng-container matColumnDef="rankings">
+      <th mat-header-cell *matHeaderCellDef> Rankings </th>
+      <td mat-cell *matCellDef="let searchResult"> {{searchResult.rankings}} </td>
+    </ng-container>
+
+    <!-- Created At -->
+    <ng-container matColumnDef="createdAt">
+        <th mat-header-cell *matHeaderCellDef> Created At </th>
+        <td mat-cell *matCellDef="let search"> {{search.createdAt | date : "dd-MM-YYYY hh:mm"}} </td>
+      </ng-container>  
+  
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>

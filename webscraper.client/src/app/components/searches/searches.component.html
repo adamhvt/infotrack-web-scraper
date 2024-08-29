@@ -1,0 +1,37 @@
+<div class="top-section">
+  <h2>Searches</h2>
+
+  <button mat-flat-button (click)="openNewSearchDialog()">New search</button>
+</div>
+
+<table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+  
+    <!-- Search Expression Column -->
+    <ng-container matColumnDef="searchExpression">
+      <th mat-header-cell *matHeaderCellDef> Expression </th>
+      <td mat-cell *matCellDef="let search"> {{search.searchExpression}} </td>
+    </ng-container>
+  
+    <!-- Provider -->
+    <ng-container matColumnDef="searchProvider">
+      <th mat-header-cell *matHeaderCellDef> Provider </th>
+      <td mat-cell *matCellDef="let search"> {{search.searchProvider}} </td>
+    </ng-container>
+  
+    <!-- Created At -->
+    <ng-container matColumnDef="createdAt">
+      <th mat-header-cell *matHeaderCellDef> Created At </th>
+      <td mat-cell *matCellDef="let search"> {{search.createdAt | date : "dd-MM-YYYY hh:mm"}} </td>
+    </ng-container>
+
+    <!-- Details -->
+    <ng-container matColumnDef="details">
+        <th mat-header-cell *matHeaderCellDef></th>
+        <td mat-cell *matCellDef="let search">
+            <a mat-button [routerLink]="[search.id]">Details</a>
+        </td>
+    </ng-container>
+  
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>

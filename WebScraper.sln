@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebScraper.Api", "WebScraper.Api\WebScraper.Api.csproj", "{82339548-4473-498C-B22E-9DCFD9655E7C}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "webscraper.client", "webscraper.client\webscraper.client.esproj", "{0D73837C-AFFD-41BC-9334-C1A3419ACB6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebScraper.Contracts", "WebScraper.Contracts\WebScraper.Contracts.csproj", "{F6E85D98-291B-4EC1-B009-A7386CBA2B11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebScraper.Domain", "WebScraper.Domain\WebScraper.Domain.csproj", "{F2B6F341-31E6-4F21-B756-F26B7519332D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebScraper.Application", "WebScraper.Application\WebScraper.Application.csproj", "{23C17B44-A537-4CFC-8D57-555DFA612EC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebScraper.Infrastructure", "WebScraper.Infrastructure\WebScraper.Infrastructure.csproj", "{08C8178A-8C23-46C3-9C65-487A4128FC3A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82339548-4473-498C-B22E-9DCFD9655E7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82339548-4473-498C-B22E-9DCFD9655E7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82339548-4473-498C-B22E-9DCFD9655E7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82339548-4473-498C-B22E-9DCFD9655E7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D73837C-AFFD-41BC-9334-C1A3419ACB6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D73837C-AFFD-41BC-9334-C1A3419ACB6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D73837C-AFFD-41BC-9334-C1A3419ACB6A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0D73837C-AFFD-41BC-9334-C1A3419ACB6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D73837C-AFFD-41BC-9334-C1A3419ACB6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D73837C-AFFD-41BC-9334-C1A3419ACB6A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{F6E85D98-291B-4EC1-B009-A7386CBA2B11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6E85D98-291B-4EC1-B009-A7386CBA2B11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6E85D98-291B-4EC1-B009-A7386CBA2B11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6E85D98-291B-4EC1-B009-A7386CBA2B11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2B6F341-31E6-4F21-B756-F26B7519332D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2B6F341-31E6-4F21-B756-F26B7519332D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2B6F341-31E6-4F21-B756-F26B7519332D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2B6F341-31E6-4F21-B756-F26B7519332D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23C17B44-A537-4CFC-8D57-555DFA612EC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23C17B44-A537-4CFC-8D57-555DFA612EC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23C17B44-A537-4CFC-8D57-555DFA612EC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23C17B44-A537-4CFC-8D57-555DFA612EC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08C8178A-8C23-46C3-9C65-487A4128FC3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08C8178A-8C23-46C3-9C65-487A4128FC3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08C8178A-8C23-46C3-9C65-487A4128FC3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08C8178A-8C23-46C3-9C65-487A4128FC3A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A513046-8650-4FFA-BFD3-029A25672F2E}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,9 @@
+.top-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+table {
+    margin-top: 2rem;
+    max-width: 50vw;
+}

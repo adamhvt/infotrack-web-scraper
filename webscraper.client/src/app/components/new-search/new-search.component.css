@@ -1,0 +1,10 @@
+.form-container {
+    padding: 1rem;
+}
+
+.form-buttons {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    gap: .5rem;
+}

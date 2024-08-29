@@ -1,0 +1,32 @@
+<div class="form-container">
+  <h3>New Search</h3>
+
+  <form>
+    <div>
+      <mat-form-field style="width: 100%;">
+        <input
+          matInput
+          name="searchExpression"
+          placeholder="Search expression"
+          [(ngModel)]="searchRequest.searchExpression"
+          required
+        />
+      </mat-form-field>
+    </div>
+
+    <div>
+      <mat-form-field style="width: 100%;">
+        <mat-label>Search Provider</mat-label>
+        <mat-select [(ngModel)]="searchRequest.searchProvider" name="searchProvider">
+          <mat-option value="Google">{{ "Google" }}</mat-option>
+          <mat-option value="Bing">{{ "Bing" }}</mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+
+    <div class="form-buttons">
+      <button mat-button (click)="cancel()">Cancel</button>
+      <button mat-flat-button [disabled]="loading" (click)="submit()">Submit</button>
+    </div>
+  </form>
+</div>

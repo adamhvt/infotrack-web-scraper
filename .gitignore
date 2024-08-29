@@ -396,3 +396,12 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Angular
+.angular
+
+WebScraper.Api/WebScraper.db
+
+WebScraper.Api/WebScraper.db-shm
+
+WebScraper.Api/WebScraper.db-wal
