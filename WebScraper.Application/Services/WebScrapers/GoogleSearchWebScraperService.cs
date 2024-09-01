@@ -46,6 +46,11 @@ namespace WebScraper.Application.Services.WebScrapers
                 }
             }
 
+            if (rankings.Count == 0)
+            {
+                rankings.Add(0);
+            }
+
             return rankings;
         }
 
