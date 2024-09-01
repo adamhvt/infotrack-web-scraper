@@ -1,4 +1,5 @@
-﻿using WebScraper.Application.Interfaces;
+﻿using System.Web;
+using WebScraper.Application.Interfaces;
 using WebScraper.Domain.Models;
 
 namespace WebScraper.Infrastructure.WebSearchProviders.Google
@@ -15,7 +16,7 @@ namespace WebScraper.Infrastructure.WebSearchProviders.Google
         public async Task<WebScrapeResult> GetSearchReponseAsync(string searchExpression)
         {
             using var httpClient = _httpClientFactory.CreateClient("Google");
-            var queryString = $"search?num=100&q={string.Join('+', searchExpression.Split(' '))}";
+            var queryString = $"search?num=100&q={HttpUtility.UrlEncode(searchExpression)}";
             var response = await httpClient.GetAsync(queryString);
 
             response.EnsureSuccessStatusCode();
