@@ -1,5 +1,5 @@
 # info-track-web-scraper
-Solution for the web scraper take home exercise using .Net, Angular and SQLLite.
+Solution for the web scraper take home exercise using .Net, Angular and SQLite.
 
 # Requirements
 This application requires the following to be able to run:
@@ -68,7 +68,7 @@ The test suite is built using the following libraries:
 - FluentAssertions
 
 # Limitations
-As cookie consent banners often defer loading the search results, scraping results were not always reliable, therefore the current solution is using mock HTML responses based on real search results.
+As cookie consent banners often defer loading the search results, scraping results were not always reliable, therefore the current solution is using mock HTML responses based on real search results for "land registry search".
 
 The components and logic for sending a real request to the search providers are still in place for demonstration purposes.
 
