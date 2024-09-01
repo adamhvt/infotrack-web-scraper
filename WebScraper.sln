@@ -3,17 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebScraper.Api", "WebScraper.Api\WebScraper.Api.csproj", "{82339548-4473-498C-B22E-9DCFD9655E7C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebScraper.Api", "WebScraper.Api\WebScraper.Api.csproj", "{82339548-4473-498C-B22E-9DCFD9655E7C}"
 EndProject
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "webscraper.client", "webscraper.client\webscraper.client.esproj", "{0D73837C-AFFD-41BC-9334-C1A3419ACB6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebScraper.Contracts", "WebScraper.Contracts\WebScraper.Contracts.csproj", "{F6E85D98-291B-4EC1-B009-A7386CBA2B11}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebScraper.Contracts", "WebScraper.Contracts\WebScraper.Contracts.csproj", "{F6E85D98-291B-4EC1-B009-A7386CBA2B11}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebScraper.Domain", "WebScraper.Domain\WebScraper.Domain.csproj", "{F2B6F341-31E6-4F21-B756-F26B7519332D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebScraper.Domain", "WebScraper.Domain\WebScraper.Domain.csproj", "{F2B6F341-31E6-4F21-B756-F26B7519332D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebScraper.Application", "WebScraper.Application\WebScraper.Application.csproj", "{23C17B44-A537-4CFC-8D57-555DFA612EC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebScraper.Application", "WebScraper.Application\WebScraper.Application.csproj", "{23C17B44-A537-4CFC-8D57-555DFA612EC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebScraper.Infrastructure", "WebScraper.Infrastructure\WebScraper.Infrastructure.csproj", "{08C8178A-8C23-46C3-9C65-487A4128FC3A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebScraper.Infrastructure", "WebScraper.Infrastructure\WebScraper.Infrastructure.csproj", "{08C8178A-8C23-46C3-9C65-487A4128FC3A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6C6845D5-70BA-42DB-B5AE-4A2699AB3381}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{BCCAB99C-AAB7-43A3-AF4E-1ADA0DAA6FAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebScraper.Application.Tests.Unit", "WebScraper.Application.Test.Unit\WebScraper.Application.Tests.Unit.csproj", "{EEE5F843-B69B-49D4-858C-1CBD729EC690}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,9 +53,22 @@ Global
 		{08C8178A-8C23-46C3-9C65-487A4128FC3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08C8178A-8C23-46C3-9C65-487A4128FC3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08C8178A-8C23-46C3-9C65-487A4128FC3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEE5F843-B69B-49D4-858C-1CBD729EC690}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEE5F843-B69B-49D4-858C-1CBD729EC690}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEE5F843-B69B-49D4-858C-1CBD729EC690}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEE5F843-B69B-49D4-858C-1CBD729EC690}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{82339548-4473-498C-B22E-9DCFD9655E7C} = {6C6845D5-70BA-42DB-B5AE-4A2699AB3381}
+		{0D73837C-AFFD-41BC-9334-C1A3419ACB6A} = {6C6845D5-70BA-42DB-B5AE-4A2699AB3381}
+		{F6E85D98-291B-4EC1-B009-A7386CBA2B11} = {6C6845D5-70BA-42DB-B5AE-4A2699AB3381}
+		{F2B6F341-31E6-4F21-B756-F26B7519332D} = {6C6845D5-70BA-42DB-B5AE-4A2699AB3381}
+		{23C17B44-A537-4CFC-8D57-555DFA612EC9} = {6C6845D5-70BA-42DB-B5AE-4A2699AB3381}
+		{08C8178A-8C23-46C3-9C65-487A4128FC3A} = {6C6845D5-70BA-42DB-B5AE-4A2699AB3381}
+		{EEE5F843-B69B-49D4-858C-1CBD729EC690} = {BCCAB99C-AAB7-43A3-AF4E-1ADA0DAA6FAE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7A513046-8650-4FFA-BFD3-029A25672F2E}
