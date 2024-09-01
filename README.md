@@ -59,6 +59,14 @@ The unit of work pattern simplify transaction handling by treating multiple repo
 \
 `[GET] /api/WebSearchResults?webSearchId={value}`
 
+# Tests
+Tests for testing the `WebSearchService` and `WebScraper` services have been added.
+
+The test suite is built using the following libraries:
+- xUnit
+- NSubstitute
+- FluentAssertions
+
 # Limitations
 As cookie consent banners often defer loading the search results, scraping results were not always reliable, therefore the current solution is using mock HTML responses based on real search results.
 
